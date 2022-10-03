@@ -1,0 +1,91 @@
+.section__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    background-position: center;
+    background-size: 70px;
+}
+
+.section__img {
+    max-width: 70px;
+    max-height: 70px;
+}
+/* иконки соц сетей футер */
+
+.icon-footer-inst {
+    display: inline-block;
+    background-color: #f5f4fa;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-footer-twitter {
+    display: inline-block;
+    background-color: #f5f4fa;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-footer-fb {
+    display: inline-block;
+    background-color: #f5f4fa;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-footer-in {
+    display: inline-block;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+.social__icon {
+    fill: currentColor;
+}
+.social-link__icon {
+    color: #afb1b8;
+}
+/* закрывающая иконка модальное */
+.modal-close-icon {
+    min-width: 11px;
+    height: 11px;
+}
+
+.modal-close:hover {
+    fill: #2196f3;
+    cursor: pointer;
+}
+.modal-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    fill: #212121;
+    transform: translateY(-50%);
+}
+.form-checkbox-icon {
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.form-modal-checkbox-uncheck {
+    opacity: 1;
+    color: #000;
+}
+.footer__icon {
+    fill: #fff;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+}

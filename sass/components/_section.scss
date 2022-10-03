@@ -1,0 +1,194 @@
+.section__list {
+    gap: 30px;
+    list-style: none;
+}
+/* для иконок */
+.section__icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 270px;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    background-position: center;
+    background-size: 70px;
+}
+
+.section__img {
+    max-width: 70px;
+    max-height: 70px;
+}
+.section__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+.section__list {
+    gap: 30px;
+    list-style: none;
+}
+.section__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+}
+.section-works__preview {
+    padding-top: 0%;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(42 / 36);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+/* чем мы занимаемся */
+.section-works__list {
+    gap: 30px;
+}
+.section-works {
+    padding-bottom: 94px;
+}
+/* наша команда */
+.section-team__item {
+    background-color: var(--text-color);
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.btn__item:hover,
+.btn__item:focus {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}
+
+.btn__item:active {
+    background-color: var(--accent-color);
+}
+/* наша команда */
+.section-team {
+    background-color: #f5f4fa;
+}
+
+.section-team__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--indent);
+}
+
+.section-team__description {
+    text-align: center;
+    padding: 30px;
+}
+.section-team__name {
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+.section-team__position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(19 / 16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color);
+    margin-bottom: 16px;
+}
+
+.grey-style {
+    background-color: var(--bg-cl);
+}
+/* постояные клиенты */
+.clients-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-color);
+}
+.clients-items {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    list-style: none;
+}
+
+.clients-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    color: #afb1b8;
+    transition: border-color var(--animation), color var(--animation);
+}
+.icon-client {
+    fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+    border-color: var(--accent-color);
+    color: var(--accent-color);
+    transition: var(--animation);
+}
+
+/* чем мы занимаемся позиционирование */
+.section-works__thumb {
+    position: relative;
+}
+/* чем мы занимаемся позиционирование */
+.section-works__thumb>.section-works__text {
+    position: absolute;
+    top: 275px;
+    right: 50px;
+    width: 370px;
+    margin: -50px;
+    padding: 8px 16px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background-color: rgba(47, 48, 58, 0.8);
+    color: #fff;
+}
+.section-social__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--text-color);
+    transition: background-color var(--animation), color var(--animation);
+}
+.section-social__link:hover,
+.section-social__link:focus {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+}

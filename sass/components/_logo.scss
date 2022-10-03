@@ -1,0 +1,16 @@
+.logo__light {
+    color: var(--text-color);
+}
+.logo__dark {
+    color: #000;
+}
+
+.logo {
+    margin-right: 93px;
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: calc(31 / 26);
+    letter-spacing: 0.03em;
+}
