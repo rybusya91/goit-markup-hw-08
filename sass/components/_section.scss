@@ -28,7 +28,7 @@
    
     // padding-top: 25px;
     // padding-bottom: 25px;
-    // margin-bottom: 30px;
+    // 
     // max-width: 480px;
     
     background-color: #f5f4fa;
@@ -39,6 +39,7 @@
     @media screen and (min-width:1200px) {
         width: 270px;
     height: 120px;
+    margin-bottom: 30px;
     // flex-direction: column;
     }
 }
