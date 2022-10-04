@@ -7,8 +7,7 @@
     color: var(--primary-color);
     transition: color var(--animation);
 }
-.nav__list,
-.nav__contact {
+.nav__list{
     display: flex;
     margin-left: auto;
     gap: 50px;
@@ -16,6 +15,22 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.nav__contact {
+    
+    display: flex;
+    margin-left: auto;
+    gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    @media screen and (min-width:768px) {
+        flex-direction: column;
+    }
+    
 }
 .nav__list .link,
 .contacts-nav .link {
