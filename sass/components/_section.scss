@@ -1,3 +1,7 @@
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .section__list {
     gap: 30px;
     list-style: none;
@@ -28,7 +32,6 @@
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-color);
 }
 .section__list {
     gap: 30px;
