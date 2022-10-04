@@ -382,34 +382,28 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
   padding: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 30px;
   list-style: none;
 }
-
-/* для иконок */
-.section__icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  width: 450px;
-  background-color: #f5f4fa;
-  border-radius: 4px;
-  background-position: center;
-}
-@media screen and (min-width: 1200px) {
-  .section__icon {
-    width: 270px;
-    height: 120px;
-    margin-bottom: 30px;
+@media screen and (min-width: 768px) {
+  .section__list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
   }
 }
 
+@media screen and (min-width: 768px) {
+  .section__item {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+
+/* для иконок */
 .section__img {
   max-width: 70px;
   max-height: 70px;
@@ -423,11 +417,6 @@ img {
   line-height: 1.1428571429;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-}
-
-.section__list {
-  gap: 30px;
-  list-style: none;
 }
 
 .section__text {
@@ -473,11 +462,6 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-@media screen and (max-width: 768px) {
-  .section__list:not(:last-child) {
-    margin-bottom: 30px;
-  }
-}
 .btn__item:hover,
 .btn__item:focus {
   background-color: var(--accent-color);
@@ -940,13 +924,17 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 30px;
-  width: 270px;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
   background-position: center;
   background-size: 70px;
+}
+@media screen and (min-width: 1200px) {
+  .section__icon {
+    margin-bottom: 30px;
+    width: 270px;
+  }
 }
 
 .section__img {
