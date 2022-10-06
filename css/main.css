@@ -809,17 +809,23 @@ img {
 }
 
 .grey-style-text {
-  width: 696px;
+  width: 360px;
   margin-top: 0;
   margin: auto;
   margin-bottom: 30px;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: 1.3636363636;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color);
+}
+@media screen and (min-width: 1200) {
+  .grey-style-text {
+    width: 696px;
+    font-size: 44px;
+  }
 }
 
 .grey-style {
