@@ -394,18 +394,15 @@ img {
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-  outline: 2px solid aqua;
 }
 @media screen and (min-width: 768px) {
   .container {
     max-width: 768px;
-    outline: 2px solid red;
   }
 }
 @media screen and (min-width: 1200px) {
   .container {
     max-width: 1200px;
-    outline: 2px solid greenyellow;
   }
 }
 
@@ -1670,6 +1667,8 @@ img {
 }
 
 .menu-container {
+  max-width: 480px;
+  max-height: 796px;
   position: fixed;
   top: 0;
   left: 0;
