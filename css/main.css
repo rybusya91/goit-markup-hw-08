@@ -746,6 +746,11 @@ img {
     padding-bottom: 94px;
   }
 }
+@media screen and (max-width: 1200px) {
+  .section-works {
+    display: none;
+  }
+}
 
 /* наша команда */
 .section-team__item {
@@ -772,9 +777,6 @@ img {
 }
 
 .section-team__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: var(--indent);
