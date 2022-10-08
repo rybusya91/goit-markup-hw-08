@@ -1044,8 +1044,13 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 570px;
+    max-width: 450px;
     gap: 12px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .footer__form {
+    width: 359px;
   }
 }
 .footer__label {
@@ -1070,6 +1075,7 @@ img {
 }
 
 .footer__email {
+  width: 100%;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
