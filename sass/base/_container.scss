@@ -6,8 +6,12 @@
     // desktop: 1200px;
 
     // mobile style
-    width: 100%;
-    // max-width: 480px;
+    // width: 100%;
+    min-width: 320px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
     // margin-right: 0;
@@ -16,21 +20,19 @@
 
     @media screen and (min-width: 480px)  {
         max-width: 480px;
-        outline: 2px solid #dc35b2;
+
         }
     
     // tablet style
     @media screen and (min-width: 768px) {
         max-width: 768px;
-        outline: 2px solid #678902;
+       
 
     }
 
     // desktop style
     @media screen and (min-width: 1200px) {
         max-width: 1200px;
-       
-        
        
     }
     

@@ -147,8 +147,9 @@
 
 .grey-style-text {
     width: 360px;
-    margin-top: 0;
-    margin: auto;
+    height: 84px;
+    margin-left: 60px;
+    margin-right: 60px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
@@ -157,6 +158,12 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--text-color);
+
+    @media screen and (min-width:768px) {
+        height: 84px;
+        left: 204px;
+        top: 198px;
+    }
 
     @media screen  and (min-width:1200) {
         width: 696px;
