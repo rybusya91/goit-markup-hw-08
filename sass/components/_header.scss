@@ -3,3 +3,20 @@
     border-bottom: 1px solid #ececec;
 }
 
+.header__nav, .nav__contact {
+@media screen and (max-width: 767px) {
+    display: none;
+}
+}
+
+.nav__contact {
+    @media screen and (min-width: 768px) {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    @media screen and (min-width: 1200px) {
+        flex-direction: row;
+        gap: 30px;
+    }
+}
