@@ -145,36 +145,7 @@
 }
 
 
-.grey-style-text {
-    width: 360px;
-    height: 84px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 30px;
-    font-weight: 900;
-    font-size: 26px;
-    line-height: calc(60 / 44);
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--text-color);
 
-    @media screen and (min-width:768px) {
-        height: 84px;
-        left: 204px;
-        top: 198px;
-    }
-
-    @media screen  and (min-width:1200) {
-        width: 696px;
-        font-size: 44px;
-    }
- }
-
-.grey-style { 
-    padding: 200px 0;
-    background-color: var(--bg-cl);
-}
 /* постояные клиенты */
 .clients-title {
    
@@ -190,9 +161,9 @@
 
     
         // top: 4395px;
-    @media screen and (min-width:768px) {
+    // @media screen and (min-width:768px) {
         
-    }
+    // }
 
     @media screen and (min-width: 1200px) {
         margin-bottom: 50px;
@@ -203,10 +174,10 @@
     
 }
 .clients-items {
-    display: -webkit-box;
+    // display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
+    // -webkit-box-pack: center;
     justify-content: center;
     gap: 30px;
     align-items: center;

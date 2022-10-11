@@ -774,39 +774,6 @@ img {
   margin-bottom: 16px;
 }
 
-.grey-style-text {
-  width: 360px;
-  height: 84px;
-  margin-left: 60px;
-  margin-right: 60px;
-  margin-bottom: 30px;
-  font-weight: 900;
-  font-size: 26px;
-  line-height: 1.3636363636;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--text-color);
-}
-@media screen and (min-width: 768px) {
-  .grey-style-text {
-    height: 84px;
-    left: 204px;
-    top: 198px;
-  }
-}
-@media screen and (min-width: 1200) {
-  .grey-style-text {
-    width: 696px;
-    font-size: 44px;
-  }
-}
-
-.grey-style {
-  padding: 200px 0;
-  background-color: var(--bg-cl);
-}
-
 /* постояные клиенты */
 .clients-title {
   margin-bottom: 30px;
@@ -832,8 +799,8 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-      justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   gap: 30px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -1322,17 +1289,30 @@ img {
 }
 
 .grey-style-text {
-  width: 696px;
-  margin-top: 0;
-  margin: auto;
+  width: 360px;
   margin-bottom: 30px;
   font-weight: 900;
-  font-size: 44px;
+  font-size: 26px;
   line-height: 1.3636363636;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color);
+}
+@media screen and (min-width: 768px) {
+  .grey-style-text {
+    left: 204px;
+    top: 198px;
+  }
+}
+@media screen and (min-width: 1200) {
+  .grey-style-text {
+    width: 696px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 44px;
+  }
 }
 
 .grey-style {
