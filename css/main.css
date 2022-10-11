@@ -314,8 +314,8 @@ summary {
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: -webkit-gradient(linear, left top, right top, from(var(--linear-gradient)), to(var(--linear-gradient))), url(../images/img_sm-@1x.png);
-  background-image: linear-gradient(to right, var(--linear-gradient), var(--linear-gradient)), url(../images/img_sm-@1x.png);
+  background-image: -webkit-gradient(linear, left top, right top, from(var(--linear-gradient)), to(var(--linear-gradient))), url(../images/img_sm@1x.jpg);
+  background-image: linear-gradient(to right, var(--linear-gradient), var(--linear-gradient)), url(../images/img_sm@1x.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -325,27 +325,27 @@ summary {
 }
 @media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../images/img_sm-@2x.png);
+    background-image: url(../images/img_sm@2x.jpg);
   }
 }
 @media screen and (min-width: 481px) {
   .overlay {
-    background-image: url(../images/img_mg-@1x.png);
+    background-image: url(../images/img_mg@1x.jpg);
   }
 }
 @media screen and (min-width: 481px) and (min-device-pixel-ratio: 2), screen and (min-width: 481px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 481px) and (min-resolution: 192dpi), screen and (min-width: 481px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../images/img_mg-@2x.png);
+    background-image: url(../images/img_mg@2x.jpg);
   }
 }
 @media screen and (min-width: 769px) {
   .overlay {
-    background-image: url(../images/img_lg-@1x.png);
+    background-image: url(./images/img_lg-@1x.png);
   }
 }
 @media screen and (min-width: 769px) and (min-device-pixel-ratio: 2), screen and (min-width: 769px) and (-webkit-min-device-pixel-ratio: 2), screen and (min-width: 769px) and (min-resolution: 192dpi), screen and (min-width: 769px) and (min-resolution: 2dppx) {
   .overlay {
-    background-image: url(../images/img_lg-@2x.png);
+    background-image: url(./images/mg_lg-@2x.png);
   }
 }
 
