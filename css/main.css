@@ -1528,8 +1528,7 @@ img {
 
 .modal {
   position: absolute;
-  width: 528px;
-  height: 581px;
+  width: 450px;
   left: 50%;
   top: 50%;
   padding: 40px;
@@ -1543,6 +1542,12 @@ img {
   transition: opacity var(--animation), -webkit-transform var(--animation);
   transition: transform var(--animation), opacity var(--animation);
   transition: transform var(--animation), opacity var(--animation), -webkit-transform var(--animation);
+}
+@media screen and (min-width: 1200px) {
+  .modal {
+    min-width: 528px;
+    min-height: 581px;
+  }
 }
 
 .modal-close {
@@ -1573,14 +1578,18 @@ img {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
   text-align: center;
-  width: 448px;
+  width: 370px;
   height: 23px;
   left: 576px;
   top: 262px;
   letter-spacing: 0.03em;
   color: #212121;
+}
+@media screen and (min-width: 1200px) {
+  .modal-title {
+    width: 448px;
+  }
 }
 
 .modal-form {
@@ -1656,7 +1665,7 @@ img {
 
 /* коментарий */
 .register-form {
-  width: 448px;
+  width: 370px;
   height: 120px;
   font-size: 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -1665,6 +1674,11 @@ img {
   transition: border-color var(--accent-color);
   resize: none;
   padding: 12px 16px;
+}
+@media screen and (min-width: 1200px) {
+  .register-form {
+    width: 448px;
+  }
 }
 
 .register-form:focus {
