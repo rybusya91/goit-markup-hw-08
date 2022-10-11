@@ -1580,7 +1580,6 @@ img {
   font-size: 20px;
   text-align: center;
   width: 370px;
-  height: 23px;
   left: 576px;
   top: 262px;
   letter-spacing: 0.03em;
@@ -1723,7 +1722,7 @@ img {
 }
 
 .form-agreement-text {
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   -webkit-user-select: none;
@@ -1731,6 +1730,11 @@ img {
       -ms-user-select: none;
           user-select: none;
   color: #757575;
+}
+@media screen and (min-width: 1200px) {
+  .form-agreement-text {
+    font-size: 14px;
+  }
 }
 
 .form-agreement-link {

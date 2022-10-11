@@ -34,9 +34,9 @@
     transition: transform var(--animation), opacity var(--animation);
 
     @media screen and (min-width: 1200px) {
-            min-width: 528px;
-            min-height: 581px;
-        }
+        min-width: 528px;
+        min-height: 581px;
+    }
 }
 
 
@@ -63,7 +63,7 @@
     
     text-align: center;
     width: 370px;
-    height: 23px;
+    // height: 23px;
     left: 576px;
     top: 262px;
     letter-spacing: 0.03em;
@@ -178,11 +178,16 @@
     height: 24px;
 }
 .form-agreement-text {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.7;
     letter-spacing: 0.03em;
     user-select: none;
     color: #757575;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 14px;
+    }
+
 }
 
 .form-agreement-link {
