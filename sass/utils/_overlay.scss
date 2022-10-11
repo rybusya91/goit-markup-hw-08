@@ -34,12 +34,12 @@
      // desktop images
     
     @media screen and (min-width:769px) {
-        background-image: url(./images/img_lg-@1x.png);
+        background-image: url(../images/img_lg@1x.jpg);
     
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(./images/mg_lg-@2x.png);
+            background-image: url(../images/img_lg@2x.jpg);
                   
         }
     
