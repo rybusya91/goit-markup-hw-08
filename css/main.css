@@ -817,13 +817,23 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 170px;
+  width: 210px;
   height: 92px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   color: #afb1b8;
   -webkit-transition: border-color var(--animation), color var(--animation);
   transition: border-color var(--animation), color var(--animation);
+}
+@media screen and (min-width: 768px) {
+  .clients-link {
+    width: 226px;
+  }
+}
+@media screen and (min-width: 1200) {
+  .clients-link {
+    width: 170px;
+  }
 }
 
 .icon-client {
@@ -1299,12 +1309,6 @@ img {
   text-transform: uppercase;
   color: var(--text-color);
 }
-@media screen and (min-width: 768px) {
-  .grey-style-text {
-    left: 204px;
-    top: 198px;
-  }
-}
 @media screen and (min-width: 1200) {
   .grey-style-text {
     width: 696px;
@@ -1763,8 +1767,6 @@ img {
 }
 
 .menu-container {
-  max-width: 480px;
-  max-height: 796px;
   position: fixed;
   top: 0;
   left: 0;
