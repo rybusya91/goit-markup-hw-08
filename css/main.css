@@ -1107,7 +1107,7 @@ img {
 }
 
 .footer__email {
-  width: 100%;
+  width: 450px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--bg-cl);
@@ -1141,9 +1141,9 @@ img {
   line-height: 1.25;
   color: rgba(255, 255, 255, 0.6);
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .footer__email {
-    max-width: 450px;
+    max-width: 358px;
   }
 }
 
