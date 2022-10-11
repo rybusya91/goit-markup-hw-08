@@ -15,18 +15,18 @@
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(../images/img_sm@2x.jpg);
+            background-image: linear-gradient(to right, var(--linear-gradient), var(--linear-gradient)), url(../images/img_sm@2x.jpg);
         }
 
     // tablet images
 
     @media screen and (min-width:481px) {
-        background-image: url(../images/img_mg@1x.jpg);
+        background-image: linear-gradient(to right, var(--linear-gradient), var(--linear-gradient)), url(../images/img_mg@1x.jpg);
 
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(../images/img_mg@2x.jpg);
+            background-image: linear-gradient(to right, var(--linear-gradient), var(--linear-gradient)), url(../images/img_mg@2x.jpg);
         }
         
     }
@@ -34,12 +34,12 @@
      // desktop images
     
     @media screen and (min-width:769px) {
-        background-image: url(../images/img_lg@1x.jpg);
+        background-image: linear-gradient(to right, var(--linear-gradient), var(--linear-gradient)), url(../images/img_lg@1x.jpg);
     
     @media (min-device-pixel-ratio: 2),
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
-            background-image: url(../images/img_lg@2x.jpg);
+            background-image: linear-gradient(to right, var(--linear-gradient), var(--linear-gradient)), url(../images/img_lg@2x.jpg);
                   
         }
     

@@ -28,6 +28,13 @@
 
 }
 
+.section-social__list {
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
 .section__item {
     @media screen and (min-width:768px) {
         flex-basis: calc((100% - 30px) / 2 );
@@ -147,8 +154,6 @@
 /* постояные клиенты */
 .clients-title {
    
-    // width: 314px;
-    // height: 33px;
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 28px;
@@ -172,10 +177,8 @@
     
 }
 .clients-items {
-    // display: -webkit-box;
     display: flex;
     flex-wrap: wrap;
-    // -webkit-box-pack: center;
     justify-content: center;
     gap: 30px;
     align-items: center;
