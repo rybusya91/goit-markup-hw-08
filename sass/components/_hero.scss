@@ -1,6 +1,8 @@
 
 .grey-style-text {
     width: 360px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 26px;
@@ -10,17 +12,16 @@
     text-transform: uppercase;
     color: var(--text-color);
 
-    // @media screen and (min-width:768px) {
-    //     // height: 84px;
-    //     left: 204px;
-    //     top: 198px;
+    // @media screen and (min-width: 768px) {
+    //     margin-left: auto;
+    //     margin-right: auto;
     // }
 
-    @media screen and (min-width:1200) {
+    @media screen and (min-width: 1200px) {
         width: 696px;
         margin-top: 0;
-        margin-left: auto;
-        margin-right: auto;
+        // margin-left: auto;
+        // margin-right: auto;
         font-size: 44px;
        
     }
