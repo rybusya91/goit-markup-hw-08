@@ -20,29 +20,26 @@
 
     @media screen and (min-width: 480px)  {
         max-width: 480px;
-
         }
     
     // tablet style
     @media screen and (min-width: 768px) {
         max-width: 768px;
-       
-
     }
 
     // desktop style
     @media screen and (min-width: 1200px) {
         max-width: 1200px;
-       
     }
-    
 }
 
 
 .box {
-
     display: flex;
-    align-items: center;
+
+    @media screen and (min-width: 1200px) {
+      align-items: center;  
+    }
 }
 /* контейнеры в футерe */
 .footer>.container {

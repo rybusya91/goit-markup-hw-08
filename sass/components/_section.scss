@@ -2,7 +2,6 @@
     padding-top: 60px;
     padding-bottom: 60px;
 
-
     @media screen and (min-width: 1200px) {
         padding-top: 94px;
         padding-bottom: 94px;
@@ -29,7 +28,6 @@
 }
 
 .section-social__list {
-
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -38,14 +36,11 @@
 .section__item {
     @media screen and (min-width:768px) {
         flex-basis: calc((100% - 30px) / 2 );
-        
     }
 }
 
 
 /* для иконок */
-
-
 .section__img {
     max-width: 70px;
     max-height: 70px;
@@ -101,8 +96,6 @@
     border-bottom-right-radius: 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
-   
-       
 }
  
 
@@ -149,11 +142,8 @@
     margin-bottom: 16px;
 }
 
-
-
 /* постояные клиенты */
 .clients-title {
-   
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 28px;
@@ -162,19 +152,12 @@
     letter-spacing: 0.03em;
     color: var(--primary-color);
 
-    
-        // top: 4395px;
-    // @media screen and (min-width:768px) {
-        
-    // }
-
     @media screen and (min-width: 1200px) {
         margin-bottom: 50px;
         font-size: 36px;
         line-height: 1.16;
     }
         
-    
 }
 .clients-items {
     display: flex;
@@ -183,12 +166,12 @@
     gap: 30px;
     align-items: center;
     list-style: none;
-    @media screen and (max-width: 1200px) {
-        
-    }
+    // @media screen and (max-width: 1200px) {
+      
+    // }
 }
 
-//     @media screen and (max-width: 768px) {
+//  @media screen and (max-width: 768px) {
 //         .clients-list { 
 //         // -ms-flex-preferred-size: calc((100% - (30px * (3 - 1))) / 3);
 //         flex-basis: calc((100% - (30px * (3 - 1))) / 3);
@@ -206,7 +189,6 @@
     border-radius: 4px;
     color: #afb1b8;
     transition: border-color var(--animation), color var(--animation);
-    
 
     @media screen and (min-width:768px) {
         width: 226px;
@@ -242,7 +224,6 @@
     width: 370px;
     margin: -50px;
     padding: 8px 16px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
