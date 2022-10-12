@@ -2,6 +2,12 @@
     margin-left: auto;
     border-bottom: 1px solid #ececec;
 }
+@media screen and (max-width: 767px) {
+    .header {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+}
 
 .header__nav, .nav__contact {
 @media screen and (max-width: 767px) {
@@ -21,3 +27,4 @@
         gap: 30px;
     }
 }
+
